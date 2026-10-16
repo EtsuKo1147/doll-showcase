@@ -9,7 +9,7 @@ npm install
 npm run dev
 ```
 
-打开终端提示的网址，并进入 `/dolk-banner-proposal/`。
+打开终端提示的网址，并进入 `/doll-showcase/`。
 
 ## 替换四张 Banner
 
@@ -45,8 +45,8 @@ LP 包括轮播（可暂停、键盘操作和触控滑动）、滚动出现、St
 
 ## 发布
 
-仓库名：`dolk-banner-proposal`。`astro.config.mjs` 设置了 GitHub Pages 子路径。GitHub Settings → Pages 的 Source 设为 GitHub Actions。推送 `main` 后自动构建发布：
+仓库名：`doll-showcase`。`astro.config.mjs` 设置了 GitHub Pages 子路径。GitHub Settings → Pages 的 Source 设为 GitHub Actions。推送 `main` 后自动构建发布：
 
-`https://etsuko1147.github.io/dolk-banner-proposal/`
+`https://etsuko1147.github.io/doll-showcase/`
 
 页面为非官方面试课题展示，已添加 `noindex, nofollow`。图片与 Logo 的权利属于各自权利人。

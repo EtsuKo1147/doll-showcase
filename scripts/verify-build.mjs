@@ -4,7 +4,7 @@ import assert from 'node:assert/strict';
 import {load} from 'cheerio';
 import sharp from 'sharp';
 
-const base='/dolk-banner-proposal/';
+const base='/doll-showcase/';
 for(const route of ['', 'dingdang/', 'happy-fullset/']){
   const html=await fs.readFile('dist/'+route+'index.html','utf8');
   const $=load(html);
